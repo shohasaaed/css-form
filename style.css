@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("/img/HugeDomains_com.jpeg");
+  background-size: cover;
+  
+}
+
+div.main {
+  width: 550px;
+  margin: 50px auto 50px auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  border: 2px solid rgb(58, 40, 40);
+  border-radius: 2px;
+  box-shadow: 1px 1px 1px rgb(1, 1, 1, 1);
+  color: #faf9fa;
+  padding: 20px;
+}
+div.gender {
+  padding: 10px;
+}
+div.educate {
+  width: 10px;
+}
+h1 {
+  text-align: center;
+  padding: 20px 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#register > input {
+  width: 500px;
+  padding: 5px;
+  margin-top: 6px;
+}
+
+textarea.back {
+  padding: 10px;
+  border-radius: 8px;
+}
+/* unvisited link */
+a:link {
+  color: rgb(94, 20, 87);
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: rgb(5, 5, 46);
+}
+
+a.links {
+  text-align: center;
+}
+div.linksss {
+  text-align: center;
+  font-size: 25px;
+}
+
+input.submittion {
+  width: 150px ;
+  /* margin:; */
+  height: 40px;
+  background-color: rgb(77, 68, 87);
+  color: white;
+  font-size: 20px;
+  border: 2px;
+  border-radius:5px;
+  box-shadow: 2px 0px 2px px ;
+  
+}
+#register select {
+  padding:5px;
+  width:500px;
+  margin-top: 6px;
+}
+
+submittion:hover {
+ color: palevioletred;
+}
